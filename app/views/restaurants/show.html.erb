@@ -16,5 +16,5 @@
   <%= link_to "Back to restaurants", restaurants_path %> |
   <%= link_to "Leave a review", new_restaurant_review_path(@restaurant)%>
 
-  <%= button_to "Destroy this restaurant", @restaurant, method: :delete %>
+  <%= button_to "Destroy this restaurant", @restaurant, method: :delete, class: 'btn btn-outline-danger' %>
 </div>
