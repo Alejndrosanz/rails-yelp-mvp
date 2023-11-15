@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: #F1FFFF;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  margin: 50px auto;
+}
+.card {
+  width: 25%;
+  margin: 30px auto;
+  box-shadow: 2px 2px 0.2 solid;
+  border-radius: 20px;
+  padding: 30px;
+}
+a {
+  text-decoration: none;
+  margin: 20px;
+}
+form {
+  margin: 20px;
+}
+.list-group {
+  width: 20%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 0.2 solid;
+  border-radius: 20px;
+}
